@@ -1,0 +1,36 @@
+#main{
+    /* justify-content: center; */
+    display: flex;
+
+}
+#section{
+    justify-content: center;
+    display: flex;
+}
+#main-container{
+    width: 570px;
+    height: 65px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    float: left;
+    margin-top: 42px;
+    padding-left: 20px;
+   
+}
+    #main-container::before{
+        background-image: url("../img/pattern.svg");
+       opacity: 0.6;
+    }
+    #icon{
+        width: 200px;
+        height: 93px;
+        position: relative; top: -12%; left: 65%; transform: translate(-6%, -86%); 
+        float: left;
+    }
+    #main-icon{
+        font-family: 'SDSamliphopangche_Outline';
+        font-weight: bold;
+        font-size: 40px;
+        margin: 13px 0 0 0 ;
+        /* box-sizing: border-box; */
+    }

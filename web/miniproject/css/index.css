@@ -1,0 +1,92 @@
+        .mainPageList{
+            margin-bottom: 5px;
+        }
+        #qna{
+            width: 40%;
+            height: 400px;
+            background-color: white;
+            float: left;
+            margin-top: 40px;
+            margin-left: 30px;
+            margin-right: 40px;
+            display: block;
+        }
+        li{
+            list-style: none;
+            /* padding: 6px; */
+            line-height: 25px;
+        }
+        ul{
+            padding-left: 0px;
+        }
+        #qna-container{
+            width: 100%;
+            height: 50px;
+            border: 3px solid #ccc;
+            border-radius: 10px;
+            float: left;
+        }
+            #icon{
+                width: 200px;
+                height: 93px;
+                position: relative; top: -12%; left: 65%; transform: translate(-40%, -100%); 
+                float: left;
+            }
+            .icon-name{
+                margin-top: 15px;
+                margin-bottom: 13px;
+                margin-left: 10px;
+                font-family: 'SDSamliphopangche_Outline';
+                font-weight: bold;
+                font-size: 20px;
+                
+            }
+            #comunity{
+                width: 40%;
+                height: 400px;
+                background-color: white;
+                margin-top: 40px;
+                margin-left: 30px;
+                margin-right: 40px;
+                float: left;
+                display: block
+            }
+        #comunity-container{
+                width: 100%;
+                height: 50px;
+                border: 3px solid #ccc;
+                border-radius: 10px;
+                float: left;
+            }
+            #it{
+                width: 40%;
+                height: 400px;
+                background-color: white;
+                margin-top: 40px;
+                margin-left: 30px;
+                margin-right: 40px;
+                float: left;
+            }
+        #it-container{
+                width: 100%;
+                height: 50px;
+                border: 3px solid #ccc;
+                border-radius: 10px;
+                float: left;
+            }
+            #notice{
+                width: 40%;
+                height: 400px;
+                background-color: white;
+                margin-top: 40px;
+                margin-left: 30px;
+                margin-right: 40px;
+                float: left;
+            }
+        #notice-container{
+                width: 100%;
+                height: 50px;
+                border: 3px solid #ccc;
+                border-radius: 10px;
+                float: left;
+            }

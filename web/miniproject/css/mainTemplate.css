@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#container{
+    width: 1000px;
+    height: 1100px;
+    background-color: white;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: wheat;
+
+}
+    #logocon{
+        width: 17%;
+        height: 70px;
+        background-color: white;
+        float: left;
+    }
+        #logo{
+            width: 150px;
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+    #category{
+        width: 43%;
+        height: inherit;
+        float: left;
+        background-color: white;
+        display: flex;
+    }
+    #category ul li {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+        #category_list{
+        list-style: none;
+        width: 100%;
+        }
+            #category_list{
+                padding-left: 60px;
+                margin: 0 auto;
+            }
+                .menu {
+                font-family: 'SDSamliphopangche_Outline';
+                font-size: 22px;
+                float: left;
+                padding-top: 20px;
+                padding-right: 30px;
+                }
+                a{
+                    color: black;
+                    text-decoration: none;
+                }
+                a:hover {
+                    color:blue;
+                }
+    #searchcon{
+        width: 20%;
+        height: inherit;
+        float: left;
+        background-color: white;
+    }
+        #searchbar{
+            padding-left: 10px;
+            height: 25px;
+            border-radius:5px;
+            border: 1px solid #ccc;
+            position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%); 
+        }
+    #member{
+        background-color: white;
+        width: 20%;
+        height: inherit;
+        float: left;
+    }
+        #login, #join{
+            position: relative; 
+            top: 50%; 
+            left: 30%; 
+            transform: translate(-50%, -50%); 
+        }
+        #login{
+            margin-right: 10px;
+            width: 70px;
+            height: 30px;
+            background-color: white;
+            opacity: 0.8;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            color : black;
+
+        }
+        #login:hover{
+            background-color: gray;
+            opacity: 0.57;
+        }
+        #join{
+            color : white;
+            font-size: small;
+            width: 80px;
+            height: 30px;
+            background-color:blue;
+            opacity: 0.7;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        #join:hover{
+            background-color: gray;
+            opacity: 0.57;
+        }
+main{
+    width: 100%;
+    height: 82%;
+    background-color: white;
+}  
+#menu{
+    width: 18%;
+    background-color: white;
+    height: 400px;
+    border: 1px solid black;
+    float: left;
+}
+    #section{
+        width: 80%;
+        height: 100%;
+        float: left;
+    }
+        
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+}
